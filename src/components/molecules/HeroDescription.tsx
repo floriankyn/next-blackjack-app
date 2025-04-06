@@ -12,12 +12,12 @@ export default function HeroDescription() {
   return (
     <Card className='w-[700px]'>
       <CardHeader>
-        <CardTitle>What is Blackjack?</CardTitle>
+        <CardTitle className='text-2xl font-bold'>What is Blackjack?</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className='border border-base-300 rounded-md p-4'>
-          This is a simple blackjack game built with Next.js and TypeScript.
-          The goal of the game is to get as close to 21 as possible without
+        <p className='border border-green-500 rounded-md p-4'>
+          This is a simple blackjack game built with <strong>Next.js</strong> and <strong>TypeScript</strong>.
+          The <strong>goal</strong> of the game is to get <strong>as close to 21</strong> as possible without
           going over. You will be playing against the dealer.
         </p>
       </CardContent>
