@@ -14,11 +14,6 @@ export default function Blackjack() {
   return (
     <main className='w-full h-full'>
       <div className='w-full h-[200px] flex justify-between items-center' >
-        <div className='top-0 left-0 m-10'>  
-          <Button variant={"outline"} size={"lg"}>
-            <Settings />
-          </Button>
-        </div>
         
         <div>
           <Balance 
@@ -29,11 +24,7 @@ export default function Blackjack() {
           />
         </div>
 
-        <div className='top-0 right-0 m-10'>
-          <Button variant={"outline"} size={"lg"}>
-            History
-          </Button>
-        </div>
+
       </div>
 
 
